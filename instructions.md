@@ -27,7 +27,7 @@ Run these SQL commands (change the password):
 CREATE USER 'lab_user'@'localhost' IDENTIFIED BY 'Str0ng!Passw0rd';
 
 -- Give it permissions to create the sample DB and work with it:
-GRANT ALL PRIVILEGES ON *.* TO 'lab_user'@'localhost';
+GRANT ALL PRIVILEGES ON * . * TO 'lab_user'@'localhost';
 
 FLUSH PRIVILEGES;
 EXIT;
